@@ -110,3 +110,5 @@ cdpath=~/.paths
 #Sourcing profile for bin scripts
 source ~/.profile
 alias config='/usr/bin/git --git-dir=/home/jalves/.cfg/ --work-tree=/home/jalves'
+
+export LS_COLORS="$LS_COLORS:di=01;97"
