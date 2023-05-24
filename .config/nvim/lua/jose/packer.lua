@@ -35,10 +35,13 @@ return require('packer').startup(function(use)
 
     use {
         'nvim-treesitter/nvim-treesitter',
+        ingore_install = { 'latex' },
         run = function()
             local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
             ts_update()
-        end, }
+        end,
+    }
+
     use("nvim-treesitter/playground")
     use("theprimeagen/harpoon")
     use("theprimeagen/refactoring.nvim")
@@ -95,7 +98,17 @@ return require('packer').startup(function(use)
                 }
             }
         end
-
-
     })
+    use {
+        "iurimateus/luasnip-latex-snippets.nvim",
+        -- replace "lervag/vimtex" with "nvim-treesitter/nvim-treesitter" if you're
+        -- using treesitter.
+        requires = { "L3MON4D3/LuaSnip", "lervag/vimtex" },
+        config = function()
+            require 'luasnip-latex-snippets'.setup()
+            -- or setup({ use_treesitter = true })
+        end,
+        -- treesitter is required for markdown
+        ft = { "tex", "markdown" },
+    }
 end)

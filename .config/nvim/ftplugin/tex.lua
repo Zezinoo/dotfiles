@@ -1,2 +1,1 @@
-vim.g.tex_conceal = 'abdmgs'
-vim.opt.conceallevel = 1
+vim.opt.conceallevel = 2

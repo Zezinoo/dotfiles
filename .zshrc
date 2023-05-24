@@ -118,3 +118,10 @@ export LS_COLORS="$LS_COLORS:di=01;97"
 
 #Adding stuff to path
 export PATH="$PATH:/home/jalves/julia-1.9.0/bin"
+
+# zsh-bd
+. $HOME/.zsh/plugins/bd/bd.zsh
+#CD tab completion colors
+zstyle ':completion:*' list-colors dircolors
+autoload -Uz compinit
+compinit

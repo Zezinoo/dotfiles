@@ -33,5 +33,3 @@ vim.cmd(
 --
 vim.opt.spelllang = 'pt,en_gb'
 vim.cmd("autocmd FileType latex,tex,md,markdown setlocal spell")
-
-vim.g.tex_flavor = 'latex'

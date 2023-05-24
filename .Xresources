@@ -39,4 +39,4 @@
 Urxvt.font : xft:Iosevka Term:pixelsize=24
 
 xterm*faceName: Iosevka Term
-xterm*faceSize: 14
+xterm*faceSize: 10
