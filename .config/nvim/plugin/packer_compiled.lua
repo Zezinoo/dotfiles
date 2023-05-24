@@ -80,11 +80,12 @@ _G.packer_plugins = {
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["auto-save.nvim"] = {
+    config = { "\27LJ\2\2ê\1\0\0\4\0\f\0\0156\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\3\0005\2\5\0005\3\4\0=\3\6\0025\3\a\0=\3\b\0025\3\t\0=\3\n\2=\2\v\1B\0\2\1K\0\1\0\19trigger_events\24cancel_defered_save\1\2\0\0\16InsertEnter\15defer_save\1\2\0\0\16InsertLeave\19immediate_save\1\0\0\1\4\0\0\rBufLeave\14FocusLost\16TextChanged\1\0\1\fenabled\1\nsetup\14auto-save\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
     path = "/home/jalves/.local/share/nvim/site/pack/packer/opt/auto-save.nvim",
-    url = "https://github.com/Pocco81/auto-save.nvim"
+    url = "https://github.com/okuuva/auto-save.nvim"
   },
   ["cellular-automaton.nvim"] = {
     loaded = true,

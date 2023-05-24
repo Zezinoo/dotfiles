@@ -82,8 +82,20 @@ return require('packer').startup(function(use)
     }
     use('lervag/vimtex')
     use('suxpert/vimcaps')
-    use {
-        'Pocco81/auto-save.nvim',
-        ft = { 'tex', 'txt' }
-    }
+    use({
+        'okuuva/auto-save.nvim',
+        ft = { 'tex', 'txt' },
+        config = function()
+            require("auto-save").setup {
+                enabled = false,
+                trigger_events = {
+                    immediate_save = { "BufLeave", "FocusLost", "TextChanged" },
+                    defer_save = { "InsertLeave" },
+                    cancel_defered_save = { "InsertEnter" },
+                }
+            }
+        end
+
+
+    })
 end)

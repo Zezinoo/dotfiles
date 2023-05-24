@@ -105,10 +105,16 @@ alias vim="nvim"
 #export Unicamp=$HOME/Documents/Unicamp
 #Sourcing geometry theme
 source ~/Documents/zsh_themes/geometry/geometry.zsh
+
 #Setting path symlinks
 cdpath=~/.paths
 #Sourcing profile for bin scripts
+
 source ~/.profile
 alias config='/usr/bin/git --git-dir=/home/jalves/.cfg/ --work-tree=/home/jalves'
 
+#Changing LS COLORS
 export LS_COLORS="$LS_COLORS:di=01;97"
+
+#Adding stuff to path
+export PATH="$PATH:/home/jalves/julia-1.9.0/bin"
