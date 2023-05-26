@@ -125,3 +125,4 @@ export PATH="$PATH:/home/jalves/julia-1.9.0/bin"
 zstyle ':completion:*' list-colors dircolors
 autoload -Uz compinit
 compinit
+ xset r rate 300 50
