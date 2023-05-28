@@ -111,4 +111,5 @@ return require('packer').startup(function(use)
         -- treesitter is required for markdown
         ft = { "tex", "markdown" },
     }
+    use('freddiehaddad/feline.nvim')
 end)
