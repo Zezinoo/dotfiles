@@ -1,0 +1,19 @@
+[Info  - 8:40:11 PM] (27746) Pylance language server 2023.5.20 (pyright 009aef31) starting
+[Info  - 8:40:11 PM] (27746) Server root directory: /home/jalves/.vscode/extensions/ms-python.vscode-pylance-2023.5.20/dist
+[Info  - 8:40:11 PM] (27746) Starting service instance "eracing"
+[Info  - 8:40:12 PM] (27746) Setting pythonPath for service "eracing": "/bin/python"
+[Warn  - 8:40:12 PM] (27746) stubPath /home/jalves/Documents/Code/eracing/typings is not a valid directory.
+[Info  - 8:40:12 PM] (27746) Assuming Python version 3.10
+[Info  - 8:40:13 PM] (27746) Found 17 source files
+[Info  - 8:40:13 PM] (27746) Background analysis(1) root directory: /home/jalves/.vscode/extensions/ms-python.vscode-pylance-2023.5.20/dist
+[Info  - 8:40:13 PM] (27746) Background analysis(1) started
+[Info  - 8:40:17 PM] (27746) Indexer background runner(2) root directory: /home/jalves/.vscode/extensions/ms-python.vscode-pylance-2023.5.20/dist (index)
+[Info  - 8:40:17 PM] (27746) Indexing(2) started
+[Info  - 8:40:21 PM] (27746) [BG(1)] Long operation: checking: /home/jalves/Documents/Code/eracing/perception-emulator/main.py (6093ms)
+[Info  - 8:40:21 PM] (27746) [BG(1)] Long operation: analyzing: /home/jalves/Documents/Code/eracing/perception-emulator/main.py (7515ms)
+[Info  - 8:40:21 PM] (27746) [IDX(2)] Long operation: scan packages /home/jalves/Documents/Code/eracing (4987ms)
+[Info  - 8:40:21 PM] (27746) scanned(2) 354 files over 1 exec env
+[Info  - 8:40:32 PM] (27746) [IDX(2)] Long operation: index execution environment /home/jalves/Documents/Code/eracing (10327ms)
+[Info  - 8:40:32 PM] (27746) [IDX(2)] Long operation: index packages /home/jalves/Documents/Code/eracing (10366ms)
+[Info  - 8:40:32 PM] (27746) indexed(2) 201 files over 1 exec env
+[Info  - 8:40:32 PM] (27746) Indexing finished(2).

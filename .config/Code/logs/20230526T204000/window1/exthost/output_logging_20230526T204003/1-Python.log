@@ -1,0 +1,7 @@
+Experiment 'pythonPromptNewFormatterExt' is active
+Experiment 'pythonPromptNewToolsExt' is active
+> conda info --json
+Python interpreter path: /bin/python
+> /bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+Starting Pylance language server.

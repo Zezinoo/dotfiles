@@ -1,0 +1,182 @@
+{
+   "appDesc": {
+      "message": "Anti-spam, auto-reconnect, dark mode, welcome message and more options for more fun at Omegle!"
+   },
+   "appName": {
+      "message": "Omegle Anti-Spam and Dark Mode"
+   },
+   "appNameShort": {
+      "message": "OAS"
+   },
+   "as_button_disconnected": {
+      "message": "Disconnected"
+   },
+   "as_timeout_sec": {
+      "message": " (sec)"
+   },
+   "autoAgreeToTerms": {
+      "message": "Auto-agree to terms of service"
+   },
+   "autoAgreeToTerms_tooltip": {
+      "message": "Omegle has added a terms of service popup where you have to agree before entering the first chat. With this option, you won't need to take any action in the popup."
+   },
+   "autoBlockSpam": {
+      "message": "Auto-block strangers for spam chats"
+   },
+   "autoBlockSpam_tooltip": {
+      "message": "The extension will automatically blacklist stranger IDs for chats marked as spam, so that you will not get connected with the same stranger again. You can disable this option and blacklist strangers manually during a conversation using a button in the chat window. Please note that blacklisting only works per browser session because stranger IDs are random."
+   },
+   "autoReconnect": {
+      "message": "Auto-reconnect on every disconnection"
+   },
+   "autoReconnectSpam": {
+      "message": "Auto-reconnect only if spam is detected"
+   },
+   "autoReconnectSpam_tooltip": {
+      "message": "The extension will only start a new chat if it detects spam behaviour during Anti-Spam working time, before the chat ends."
+   },
+   "autoReconnect_tooltip": {
+      "message": "The extension will start a new chat immediately after any disconnection.\nYou can temporarily disable auto-reconnect by clicking the Anti-Spam button."
+   },
+   "block_button_title": {
+      "message": "Block stranger"
+   },
+   "block_button_title_tooltip": {
+      "message": "Block this stranger ID to automatically disconnect him on next chat."
+   },
+   "click_to_show": {
+      "message": "Click to show."
+   },
+   "customFilter": {
+      "message": "Custom filter words"
+   },
+   "customFilter_placeholder": {
+      "message": "Separate; words; with; semicolon"
+   },
+   "customFilter_tooltip": {
+      "message": "If there are any words which annoy you in strangers' messages, you can type them here seperating with a semicolon (;), and the chat will be monitored for these words during the Anti-Spam monitoring time."
+   },
+   "customRegex": {
+      "message": "Custom regex filter"
+   },
+   "customRegex_placeholder": {
+      "message": "sn(a|4)p"
+   },
+   "customRegex_tooltip": {
+      "message": "You can put your own regex if custom words filter is not enough for you. Any stranger message matched to your regex will trigger spam. Regex phrase is automatically using case insensitive flag."
+   },
+   "darkTheme": {
+      "message": "Dark Theme"
+   },
+   "darkTheme_tooltip": {
+      "message": "Switch to Dark Theme on Omegle"
+   },
+   "disconnectChatAfterTime": {
+      "message": "Disconnect if stranger doesn't write anything in specified time"
+   },
+   "disconnectChatAfterTime_tooltip": {
+      "message": "If a stranger doesn't write any message in the provided number of seconds, the chat will be auto-disconnected (min: 3, max: 60)"
+   },
+   "donateInfo": {
+      "message": "Enjoy the extension? Support me by donating:"
+   },
+   "enableDefaultFiltering": {
+      "message": "Enable predefined filtering"
+   },
+   "enableDefaultFiltering_tooltip": {
+      "message": "The extension uses predefined phrases to detect if a stranger is a bot. You can disable filtering these phrases if you think some chats are marked as spam by mistake. You will still be able to provide and use custom filter words."
+   },
+   "enableDefaultTimeChecking": {
+      "message": "Enable time checking between messages"
+   },
+   "enableDefaultTimeChecking_tooltip": {
+      "message": "Within the first few seconds since chat beginning, the anti-spam module checks how fast a stranger sends his messages. If it's too fast, the chat will be marked as spam."
+   },
+   "enabled": {
+      "message": "Enable Anti-Spam"
+   },
+   "enabled_tooltip": {
+      "message": "If checked, Anti-Spam will be enabled for every new chat."
+   },
+   "loading_off": {
+      "message": "Disabled"
+   },
+   "loading_on": {
+      "message": "Checking..."
+   },
+   "loading_text": {
+      "message": "Connecting..."
+   },
+   "modal_settings_title": {
+      "message": "Omegle Settings"
+   },
+   "new_notification": {
+      "message": "You have a new message from Stranger!"
+   },
+   "no_messages": {
+      "message": "No messages to save!"
+   },
+   "notifications_denied": {
+      "message": "You have notifications option enabled, however the Omegle website doesn't have access to it. Disable this option or grant notification permission."
+   },
+   "previousChatsFound": {
+      "message": "Previous messages found for the same stranger:"
+   },
+   "save_button_title": {
+      "message": "Save chat"
+   },
+   "save_button_title_tooltip": {
+      "message": "Save current chat to a text file."
+   },
+   "settings_button_title": {
+      "message": "Anti-Spam"
+   },
+   "settings_button_title_tooltip": {
+      "message": "Click to quickly disable Auto-Reconnect for this chat."
+   },
+   "showMessageTimes": {
+      "message": "Show message times"
+   },
+   "showMessageTimes_tooltip": {
+      "message": "Stranger's and your messages will be shown with time at which they have been sent."
+   },
+   "showNotifications": {
+      "message": "Display notifications"
+   },
+   "showNotifications_tooltip": {
+      "message": "A notification will be shown when a stranger writes a new message and the chat window is not currently used. This option requires notifications permission for Omegle website."
+   },
+   "skipReconnectAfterTime": {
+      "message": "Disable auto-reconnect on longer chats"
+   },
+   "skipReconnectAfterTime_tooltip": {
+      "message": "If a chat will last for the provided number of seconds, auto-reconnect will be deactived for this chat in case you would like to save the chat (min: 5, max: 300)"
+   },
+   "soundNotification": {
+      "message": "Sound notification when chat is considered real"
+   },
+   "soundNotification_tooltip": {
+      "message": "When the Anti-Spam module determines the stranger is a real person, a short sound notification will be played."
+   },
+   "spamTimeout": {
+      "message": "Anti-Spam working time"
+   },
+   "spamTimeout_tooltip": {
+      "message": "Anti-Spam module will be working for the entered number of seconds before marking the chat as real. (min: 5, max: 60)"
+   },
+   "welcomeMessageEnabled": {
+      "message": "Enable welcome message"
+   },
+   "welcomeMessageEnabled_tooltip": {
+      "message": "If enabled, the extension will send your welcome message to a stranger at the beginning of every chat. If you provide more than one message separated with a semicolon (;), a random one will be sent on every chat."
+   },
+   "welcomeMessage_placeholder": {
+      "message": "Your welcome message(s); separated with semicolon;"
+   },
+   "welcomeTimeout": {
+      "message": "Welcome message delay"
+   },
+   "welcomeTimeout_tooltip": {
+      "message": "Delay after which your welcome message is sent. (min: 1, max: 30)"
+   }
+}

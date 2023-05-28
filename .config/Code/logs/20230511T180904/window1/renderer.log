@@ -1,0 +1,13 @@
+2023-05-11 18:09:05.580 [info] Electron sandbox mode is enabled!
+2023-05-11 18:09:05.610 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-11 18:09:05.611 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.remote-repositories' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-11 18:09:05.611 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-11 18:09:05.611 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookControllerKind' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-11 18:09:09.057 [info] [perf] Render performance baseline is 59ms
+2023-05-11 18:13:34.956 [error] net::ERR_NETWORK_CHANGED,net::ERR_NETWORK_CHANGED,net::ERR_NETWORK_CHANGED: Error: net::ERR_NETWORK_CHANGED,net::ERR_NETWORK_CHANGED,net::ERR_NETWORK_CHANGED
+    at /usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:90057
+    at Array.reduce (<anonymous>)
+    at y (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:90043)
+    at Y.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:81397)
+    at async Y.z (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:78910)
+    at async Y.installFromGallery (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:75312)

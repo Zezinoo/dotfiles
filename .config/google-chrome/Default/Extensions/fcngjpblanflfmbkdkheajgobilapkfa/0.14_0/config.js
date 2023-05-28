@@ -1,0 +1,1 @@
+const websocketUrl = 'https://ws.primevideoparty.com';

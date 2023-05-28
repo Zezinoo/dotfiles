@@ -1,0 +1,2 @@
+ERROR: Exception occurred: [JavaVirtualMachine]:An unexpected error occurred while searching for a Java, 11 ./stoc/source/javavm/javavm.cxx:634
+ERROR: unopkg failed.

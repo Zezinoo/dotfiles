@@ -1,0 +1,23 @@
+2023/05/12-18:52:25.491 4856 Reusing MANIFEST /home/jalves/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2023/05/12-18:52:25.491 4856 Recovering log #10
+2023/05/12-18:52:25.498 4856 Reusing old log /home/jalves/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000010.log 
+2023/05/12-18:52:45.370 4852 Level-0 table #14: started
+2023/05/12-18:52:45.412 4852 Level-0 table #14: 2066221 bytes OK
+2023/05/12-18:52:45.422 4852 Delete type=0 #10
+2023/05/12-18:52:52.360 4851 Level-0 table #16: started
+2023/05/12-18:52:52.404 4851 Level-0 table #16: 2262390 bytes OK
+2023/05/12-18:52:52.414 4851 Delete type=0 #13
+2023/05/12-18:52:52.416 4851 Compacting 4@0 + 1@1 files
+2023/05/12-18:52:52.471 4851 Generated table #17@0: 11 keys, 2372974 bytes
+2023/05/12-18:52:52.508 4851 Generated table #18@0: 13 keys, 2097812 bytes
+2023/05/12-18:52:52.516 4851 Generated table #19@0: 4 keys, 160484 bytes
+2023/05/12-18:52:52.516 4851 Compacted 4@0 + 1@1 files => 4631270 bytes
+2023/05/12-18:52:52.525 4851 compacted to: files[ 0 3 1 0 0 0 0 ]
+2023/05/12-18:52:52.525 4851 Delete type=2 #16
+2023/05/12-18:52:52.525 4851 Delete type=2 #9
+2023/05/12-18:52:52.525 4851 Delete type=2 #11
+2023/05/12-18:52:52.525 4851 Delete type=2 #7
+2023/05/12-18:52:52.525 4851 Delete type=2 #14
+2023/05/12-18:54:59.259 4852 Level-0 table #21: started
+2023/05/12-18:54:59.301 4852 Level-0 table #21: 2929103 bytes OK
+2023/05/12-18:54:59.311 4852 Delete type=0 #15

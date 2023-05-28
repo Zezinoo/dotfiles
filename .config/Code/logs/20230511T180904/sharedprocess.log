@@ -1,0 +1,98 @@
+2023-05-11 18:12:39.592 [info] Getting Manifest... ms-python.python
+2023-05-11 18:12:39.613 [info] Installing extension: ms-python.python
+2023-05-11 18:12:40.730 [info] Getting Manifest... ms-toolsai.jupyter
+2023-05-11 18:12:41.352 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-05-11 18:12:41.424 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-05-11 18:12:41.442 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-05-11 18:12:41.457 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-05-11 18:12:41.472 [info] Getting Manifest... ms-python.vscode-pylance
+2023-05-11 18:12:41.573 [info] Installing extension: ms-toolsai.jupyter ms-python.python
+2023-05-11 18:12:41.573 [info] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+2023-05-11 18:12:41.573 [info] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+2023-05-11 18:12:41.574 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+2023-05-11 18:12:41.574 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+2023-05-11 18:12:41.574 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2023-05-11 18:12:51.292 [info] Extension signature is verified: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-11 18:12:51.302 [info] Extension signature is verified: ms-toolsai.vscode-jupyter-slideshow
+2023-05-11 18:12:51.347 [info] Extension signature is verified: ms-toolsai.jupyter-keymap
+2023-05-11 18:12:51.375 [info] Extracted extension to /home/jalves/.vscode/extensions/.e4c3457d-2844-4ae3-97ab-aa4a0ded32a8: ms-toolsai.jupyter-keymap
+2023-05-11 18:12:51.389 [info] Extracted extension to /home/jalves/.vscode/extensions/.fe99193f-f131-4b25-a65a-9d379b18909e: ms-toolsai.vscode-jupyter-slideshow
+2023-05-11 18:12:51.394 [info] Renamed to /home/jalves/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.0
+2023-05-11 18:12:51.397 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-05-11 18:12:51.411 [info] Renamed to /home/jalves/.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-05-11 18:12:51.428 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-05-11 18:12:51.434 [info] Extracted extension to /home/jalves/.vscode/extensions/.79ec6aef-b94b-42ea-ab4a-d4314156e116: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-11 18:12:51.448 [info] Renamed to /home/jalves/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8
+2023-05-11 18:12:51.451 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-05-11 18:13:34.799 [error] Error while installing the extension: ms-toolsai.jupyter-renderers
+2023-05-11 18:13:34.801 [error] [uncaught exception in sharedProcess]: net::ERR_NETWORK_CHANGED: Download: net::ERR_NETWORK_CHANGED
+    at yt.download (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:92:152392)
+    at async j.y (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:93:20893)
+    at async j.h (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:93:18962)
+2023-05-11 18:13:34.802 [error] Error while installing the extension: ms-toolsai.jupyter
+2023-05-11 18:13:34.804 [error] [uncaught exception in sharedProcess]: net::ERR_NETWORK_CHANGED: Download: net::ERR_NETWORK_CHANGED
+    at yt.download (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:92:152392)
+    at async j.y (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:93:20893)
+    at async j.h (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:93:18962)
+2023-05-11 18:13:34.814 [error] Error while installing the extension: ms-python.python
+2023-05-11 18:13:34.821 [error] [uncaught exception in sharedProcess]: net::ERR_NETWORK_CHANGED: Download: net::ERR_NETWORK_CHANGED
+    at yt.download (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:92:152392)
+    at async j.y (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:93:20893)
+    at async j.h (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:93:18962)
+2023-05-11 18:13:34.849 [info] Marked extension as uninstalled ms-toolsai.jupyter-keymap-1.1.0
+2023-05-11 18:13:34.863 [info] Marked extension as uninstalled ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-05-11 18:13:34.873 [info] Rollback: Uninstalled extension ms-toolsai.jupyter-keymap
+2023-05-11 18:13:34.873 [info] Rollback: Uninstalled extension ms-toolsai.vscode-jupyter-slideshow
+2023-05-11 18:13:34.874 [info] Rollback: Uninstalled extension ms-toolsai.vscode-jupyter-cell-tags
+2023-05-11 18:13:34.874 [error] Failed to install extension. ms-python.python
+2023-05-11 18:13:34.875 [error] Error: net::ERR_NETWORK_CHANGED,net::ERR_NETWORK_CHANGED,net::ERR_NETWORK_CHANGED
+    at /usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:90057
+    at Array.reduce (<anonymous>)
+    at y (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:90043)
+    at Y.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:81397)
+    at async Y.z (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:78910)
+    at async Y.installFromGallery (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:75312)
+2023-05-11 18:13:34.879 [info] Marked extension as uninstalled ms-toolsai.vscode-jupyter-cell-tags-0.1.8
+2023-05-11 18:13:39.976 [info] Getting Manifest... ms-python.python
+2023-05-11 18:13:39.985 [info] Installing extension: ms-python.python
+2023-05-11 18:13:41.959 [info] Getting Manifest... ms-toolsai.jupyter
+2023-05-11 18:13:42.181 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-05-11 18:13:42.186 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-05-11 18:13:42.193 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-05-11 18:13:42.199 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-05-11 18:13:42.204 [info] Getting Manifest... ms-python.vscode-pylance
+2023-05-11 18:13:42.308 [info] Installing extension: ms-toolsai.jupyter ms-python.python
+2023-05-11 18:13:42.309 [info] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+2023-05-11 18:13:42.309 [info] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+2023-05-11 18:13:42.310 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+2023-05-11 18:13:42.310 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+2023-05-11 18:13:42.310 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2023-05-11 18:13:48.210 [info] Extension signature is verified: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-11 18:13:48.211 [info] Extension signature is verified: ms-toolsai.vscode-jupyter-slideshow
+2023-05-11 18:13:48.225 [info] Removed the extension from uninstalled list: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-11 18:13:48.239 [info] Removed the extension from uninstalled list: ms-toolsai.vscode-jupyter-slideshow
+2023-05-11 18:13:48.239 [info] Extension signature is verified: ms-toolsai.jupyter-keymap
+2023-05-11 18:13:48.247 [info] Removed the extension from uninstalled list: ms-toolsai.jupyter-keymap
+2023-05-11 18:13:55.810 [info] Extension signature is verified: ms-toolsai.jupyter-renderers
+2023-05-11 18:13:56.064 [info] Extension signature is verified: ms-python.python
+2023-05-11 18:13:56.661 [info] Extracted extension to /home/jalves/.vscode/extensions/.cb91aec9-2369-4219-83e0-f56601362463: ms-toolsai.jupyter-renderers
+2023-05-11 18:13:56.671 [info] Renamed to /home/jalves/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.15
+2023-05-11 18:13:56.675 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-05-11 18:13:57.362 [info] Extension signature is verified: ms-toolsai.jupyter
+2023-05-11 18:13:58.293 [info] Extracted extension to /home/jalves/.vscode/extensions/.fa66c43f-bf0f-41c3-bf12-5f905eff372a: ms-toolsai.jupyter
+2023-05-11 18:13:58.306 [info] Renamed to /home/jalves/.vscode/extensions/ms-toolsai.jupyter-2023.3.1201040234
+2023-05-11 18:13:58.315 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-05-11 18:13:59.596 [info] Extracted extension to /home/jalves/.vscode/extensions/.5ef133ac-2ad7-4eae-9d37-ed72e77016e7: ms-python.python
+2023-05-11 18:13:59.608 [info] Renamed to /home/jalves/.vscode/extensions/ms-python.python-2023.6.1
+2023-05-11 18:13:59.614 [info] Extracting extension completed. ms-python.python
+2023-05-11 18:14:12.450 [info] Extension signature is verified: ms-python.vscode-pylance
+2023-05-11 18:14:16.744 [info] Extracted extension to /home/jalves/.vscode/extensions/.a522dc3a-ad63-40de-9fe9-aa17cebf1247: ms-python.vscode-pylance
+2023-05-11 18:14:16.759 [info] Renamed to /home/jalves/.vscode/extensions/ms-python.vscode-pylance-2023.5.20
+2023-05-11 18:14:16.763 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-05-11 18:14:16.783 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-11 18:14:16.783 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-05-11 18:14:16.784 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-05-11 18:14:16.784 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-05-11 18:14:16.784 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-05-11 18:14:16.784 [info] Extension installed successfully: ms-python.python
+2023-05-11 18:14:16.784 [info] Extension installed successfully: ms-python.vscode-pylance

@@ -1,0 +1,6 @@
+2023/05/27-22:19:15.370 bdc Reusing MANIFEST /home/jalves/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/05/27-22:19:15.371 bdc Recovering log #4
+2023/05/27-22:19:15.372 bdc Reusing old log /home/jalves/.config/discord/Local Storage/leveldb/000004.log 
+2023/05/27-23:26:20.214 13ce Level-0 table #8: started
+2023/05/27-23:26:20.221 13ce Level-0 table #8: 14929 bytes OK
+2023/05/27-23:26:20.230 13ce Delete type=0 #4

@@ -1,0 +1,28 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "content_security_policy": "script-src 'self' 'sha256-FRoFlGx2+Fhv0tPS9pYdsPweLbLLjRfa4Ap2BYiXk2E='; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhTrIqyO4yzEAmSPL4d+qH87hH0O3dYDlwFmfLLuGaqpDiU4NY7dPdQpuK2ODeCEMKrlSX9BsKFKUG//TXVNuWzwA9rRcDiMTRw9sBvaSGTdLpQcg10o6H1iPlNFB1SrEOiS4JhcRoJQqe4Cr4PmpCfi4Rw2hUfzMpsAUWHVIfcXDRVqjKpzxJRXSn28V8o1OeApqRka+kVpNhcINkneGHcJEimpnfR2pArW5cARq0SgjyrmDJmxGWXIX3t6pYKuwOJPlMmizGld7dIjEmuvxg/bc2YJ0kz4ihtMmShAEC9c5HaxR8tEQqUFu7uiCR0CRxCxLcQhdhglx9phiVxfeTwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "page_action": {
+      "default_icon": {
+         "19": "icon.png",
+         "38": "icon.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "YouTube Party - Click to start the party!"
+   },
+   "permissions": [ "declarativeContent", "webNavigation", "https://*.youtube.com/*", "http://*.youtube.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.2"
+}

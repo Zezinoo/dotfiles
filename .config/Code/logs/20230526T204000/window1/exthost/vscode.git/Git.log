@@ -1,0 +1,58 @@
+2023-05-26 20:40:07.862 [info] Log level: Info
+2023-05-26 20:40:07.862 [info] Validating found git in: "git"
+2023-05-26 20:40:07.862 [info] Using git "2.34.1" from "git"
+2023-05-26 20:40:07.862 [info] > git rev-parse --show-toplevel [17ms]
+2023-05-26 20:40:07.862 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-05-26 20:40:07.862 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-26 20:40:07.862 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2023-05-26 20:40:07.862 [info] Open repository: /home/jalves/Documents/Code/eracing/perception-emulator
+2023-05-26 20:40:07.862 [info] > git config --get commit.template [2ms]
+2023-05-26 20:40:07.862 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-26 20:40:07.862 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2023-05-26 20:40:07.862 [info] Open repository: /home/jalves/Documents/Code/eracing/ekf-slam
+2023-05-26 20:40:07.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2023-05-26 20:40:07.862 [info] > git status -z -uall [22ms]
+2023-05-26 20:40:07.862 [info] > git config --get commit.template [33ms]
+2023-05-26 20:40:07.862 [info] > git rev-parse --show-toplevel [42ms]
+2023-05-26 20:40:07.862 [info] > git rev-parse --git-dir --git-common-dir [80ms]
+2023-05-26 20:40:07.862 [info] Open repository: /home/jalves/Documents/Code/eracing/onboarding
+2023-05-26 20:40:07.862 [info] > git config --get commit.template [133ms]
+2023-05-26 20:40:07.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [146ms]
+2023-05-26 20:40:07.862 [info] > git config --get commit.template [153ms]
+2023-05-26 20:40:07.862 [info] No remotes found in the git config file.
+2023-05-26 20:40:07.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [65ms]
+2023-05-26 20:40:07.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [75ms]
+2023-05-26 20:40:08.177 [info] > git status -z -uall [244ms]
+2023-05-26 20:40:08.177 [info] > git status -z -uall [211ms]
+2023-05-26 20:40:08.178 [info] > git check-ignore -v -z --stdin [53ms]
+2023-05-26 20:40:08.352 [info] > git status -z -uall [802ms]
+2023-05-26 20:40:08.353 [info] > git check-ignore -v -z --stdin [210ms]
+2023-05-26 20:40:08.353 [info] > git check-ignore -v -z --stdin [188ms]
+2023-05-26 20:40:08.419 [info] > git config --get commit.template [68ms]
+2023-05-26 20:40:08.449 [info] No remotes found in the git config file.
+2023-05-26 20:40:08.476 [info] > git config --get commit.template [61ms]
+2023-05-26 20:40:08.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [57ms]
+2023-05-26 20:40:08.532 [info] > git status -z -uall [3ms]
+2023-05-26 20:40:08.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [26ms]
+2023-05-26 20:40:08.813 [info] > git rev-parse --show-toplevel [19ms]
+2023-05-26 20:40:08.813 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-05-26 20:40:08.885 [info] > git status -z -uall [329ms]
+2023-05-26 20:40:09.438 [info] > git rev-parse --show-toplevel [32ms]
+2023-05-26 20:40:09.438 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-05-26 20:40:16.452 [info] > git show --textconv :main.py [113ms]
+2023-05-26 20:40:16.496 [info] > git ls-files --stage -- /home/jalves/Documents/Code/eracing/perception-emulator/main.py [52ms]
+2023-05-26 20:40:16.700 [info] > git cat-file -s 7559f2dec18fe7969a748eff14bd57b326373058 [48ms]
+2023-05-26 20:40:25.870 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-26 20:40:25.870 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-05-26 20:40:25.980 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-26 20:40:25.980 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-05-26 20:40:26.068 [info] > git rev-parse --show-toplevel [30ms]
+2023-05-26 20:40:26.068 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-05-26 20:40:26.799 [info] > git check-ignore -v -z --stdin [2ms]
+2023-05-26 20:40:26.810 [info] > git check-ignore -v -z --stdin [41ms]

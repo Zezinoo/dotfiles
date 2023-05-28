@@ -1,0 +1,36 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "scripts/config.js", "scripts/jquery.min.js", "scripts/background.js", "scripts/extension.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon16.png",
+      "default_popup": "popup.html",
+      "default_title": "P2P Launcher"
+   },
+   "content_scripts": [ {
+      "css": [ "style/trade.css" ],
+      "js": [ "scripts/jquery.min.js" ],
+      "matches": [ "*://steamcommunity.com/tradeoffer/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "scripts/inventoryInjector.js" ],
+      "matches": [ "*://steamcommunity.com/*/inventory/", "*://steamcommunity.com/*/inventory" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Extension that makes P2P possible",
+   "externally_connectable": {
+      "matches": [ "*://*.steampowered.com/*", "*://steamcommunity.com/*" ]
+   },
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgkoh2CRCeEaN+NrXyRRz3vfaFoZ1hyusKScTqyxpJ6CVNnbPD5/UGpZE5iUjsNyjI0W/neODtkgMbqJbVBTPTqyFgtz3k7LXMcdbM6+HeDRp2L4ox70WvluVfKxIqZetuaAQcxbXf1YUMInCjZZtfsDp6C2EzxiW1I1KYLol+H09IicMUK3JuR2t4Htkr07wVX81QNcDKqnRqerjmeSxbsYa5saKeDJ18iD1FJQKf2B1Jtw55CrMlO10Dp2PBqxh3Q0BBPU1WBnc6adsPqkZ1yCQnKPh3srWZLIfryT99wl5tfYnuV++eTniqrkiz5UTtpcjizvO0VVU1ZXmm1TzLQIDAQAB",
+   "manifest_version": 2,
+   "name": "Extension for P2P",
+   "permissions": [ "notifications", "storage", "background", "webRequest", "webRequestBlocking", "*://*.steampowered.com/*", "*://steamcommunity.com/*" ],
+   "short_name": "P2P Steam",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.11",
+   "web_accessible_resources": [ "scripts/steam/OverwrittenSteamEconomyv2.js" ]
+}

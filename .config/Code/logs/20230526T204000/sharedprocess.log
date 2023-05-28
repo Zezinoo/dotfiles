@@ -1,0 +1,27 @@
+2023-05-26 20:40:07.648 [info] Getting Manifest... ms-python.python
+2023-05-26 20:40:07.664 [info] Installing extension: ms-python.python
+2023-05-26 20:40:07.748 [info] Getting Manifest... ms-python.vscode-pylance
+2023-05-26 20:40:07.799 [info] Getting Manifest... ms-toolsai.jupyter
+2023-05-26 20:40:07.922 [info] Installing extension: ms-python.vscode-pylance
+2023-05-26 20:40:08.046 [info] Installing extension: ms-toolsai.jupyter
+2023-05-26 20:40:09.812 [info] Getting Manifest... ms-python.python
+2023-05-26 20:40:10.972 [info] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2023-05-26 20:40:20.650 [info] Extension signature is verified: ms-python.python
+2023-05-26 20:40:20.809 [info] Extension signature is verified: ms-toolsai.jupyter
+2023-05-26 20:40:21.983 [info] Extension signature is verified: ms-python.vscode-pylance
+2023-05-26 20:40:23.732 [info] Extracted extension to /home/jalves/.vscode/extensions/.661121c3-3f81-40fc-a1f4-7ec954d54fc3: ms-toolsai.jupyter
+2023-05-26 20:40:23.752 [info] Renamed to /home/jalves/.vscode/extensions/ms-toolsai.jupyter-2023.4.1011241018-linux-x64
+2023-05-26 20:40:23.771 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-05-26 20:40:23.805 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-05-26 20:40:23.851 [info] Marked extension as uninstalled ms-toolsai.jupyter-2023.3.1201040234
+2023-05-26 20:40:32.257 [info] Extracted extension to /home/jalves/.vscode/extensions/.92a68fc2-3fc4-46d3-ab3e-b60ec624af06: ms-python.python
+2023-05-26 20:40:32.271 [info] Renamed to /home/jalves/.vscode/extensions/ms-python.python-2023.8.0
+2023-05-26 20:40:32.277 [info] Extracting extension completed. ms-python.python
+2023-05-26 20:40:32.297 [info] Extension installed successfully: ms-python.python
+2023-05-26 20:40:32.297 [info] Finished waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2023-05-26 20:40:32.314 [info] Marked extension as uninstalled ms-python.python-2023.6.1
+2023-05-26 20:40:34.700 [info] Extracted extension to /home/jalves/.vscode/extensions/.a6db2116-30cb-4202-8387-4ee174ce550a: ms-python.vscode-pylance
+2023-05-26 20:40:34.718 [info] Renamed to /home/jalves/.vscode/extensions/ms-python.vscode-pylance-2023.5.40
+2023-05-26 20:40:34.722 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-05-26 20:40:34.737 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-05-26 20:40:34.742 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.5.20

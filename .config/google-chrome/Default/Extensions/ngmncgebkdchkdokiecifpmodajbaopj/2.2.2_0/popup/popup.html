@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube Party</title>
+  <link rel="stylesheet" type="text/css" href="./popup.css">
+</head>
+<body>
+  <div id="popup-container">
+    <div id="header">
+      <span id="extension-name">
+        YouTube Party
+      </span>
+      <div id="header-close">
+        <div id="close-button">
+          &times;
+        </div>
+      </div>
+    </div>
+    <div id="create-session-view">
+      <p class="info-text">To create a YouTube party, click the button below!</p>
+      <div class="input-container" style="margin-bottom: 0px">
+        <input id="username-entry" placeholder="Enter your name here..." maxlength="16">
+      </div>
+      <button id="create-session-button" class="button button-colors">
+        Start the Party!
+      </button>
+    </div>
+    <div id="session-info-view" style="display: none">
+      <p class="info-text">To invite friends and family to your party, share the link below!</p>
+      <div class="input-container">
+        <input id="share-session-link" readonly value="Session not created.">
+        <div class="tooltip-wrapper" id="copy-tooltip">
+          <div class="tooltip">
+            <div id="tooltip-message" class="tooltip-content">
+              COPY
+            </div>
+          </div>
+          <svg id="copy-icon" stroke="#e96e6e" fill="#e96e6e" stroke-width="0" viewBox="0 0 24 24" height="1em"
+            width="1em">
+            <path
+              d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z">
+            </path>
+          </svg>
+        </div>
+      </div>
+      <div>
+        <p class="username-info-text">To change your username, enter a new name and submit.</p>
+        <div class="input-container" style="margin-top: 10px">
+          <input id="username-entry-during-session" placeholder="Change your name and submit." maxlength="16">
+          <div class="tooltip-wrapper" id="copy-tooltip">
+            <div class="tooltip">
+              <div id="saved-tooltip-message" class="tooltip-content">
+                SAVE
+              </div>
+            </div>
+            <svg id="save-icon" stroke="#e96e6e" fill="#e96e6e" stroke-width="0" viewBox="0 0 24 24" height="1em"
+              width="1em">
+              <path 
+                d="M9 16.17L5.53 12.7a.9959.9959 0 00-1.41 0c-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41a.9959.9959 0 00-1.41 0L9 16.17z">
+              </path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center">
+        <p id="toggle-text">Show chat</p>
+        <label class="switch" style="margin-left: 10px">
+          <input id="chat-toggle" type="checkbox">
+          <span class="slider"></span>
+        </label><br><br>
+      </div>
+      <div style="text-align: center">
+        <button id="leave-session-button" class="button button-colors" style="margin: 0">
+          Leave the Party!
+        </button>
+      </div>
+    </div>
+  </div>
+  <div id="support-us">
+    Please help support us <a id="donate-link" href="https://www.buymeacoffee.com/youtubeparty" target="_blank">here</a>!
+  </div>
+  <script type="text/javascript" src="./jquery.js"></script>
+  <script type="text/javascript" src="./popup.js"></script>
+</body>
+
+</html>

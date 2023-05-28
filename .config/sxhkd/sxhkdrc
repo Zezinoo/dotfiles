@@ -1,0 +1,19 @@
+alt + s 
+    ~/Documents/Unicamp/.scripts/rofi-courses.py
+alt + o
+    sioyek ~/current_course/master.pdf
+alt + m
+   gnome-terminal --  nvim ~/current_course/master.tex
+#Inkscape related scripts
+alt + g
+    ~/Documents/Unicamp/figures.sh
+alt + j
+    urxvt -fn "xft:Iosevka Term" -cd ~/current_course/
+alt + r
+    xdg-open ~/current_course
+alt + l
+    ~/Documents/Unicamp/.scripts/rofi-lectures.py
+alt + v
+    ~/Documents/Unicamp/.scripts/rofi-lectures-view.py
+alt + f
+    inkscape-figures edit ~/current_course/figures/

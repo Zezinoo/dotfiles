@@ -1,0 +1,13 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+    "http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<!-- Do not edit manually - generated and managed by xdg-desktop-menu -->
+<Menu>
+    <Name>Applications</Name>
+<Menu>
+    <Name>wolfram-all</Name>
+    <Directory>wolfram-all.directory</Directory>
+    <Include>
+        <Filename>wolfram-mathematica13.desktop</Filename>
+    </Include>
+</Menu>
+</Menu>

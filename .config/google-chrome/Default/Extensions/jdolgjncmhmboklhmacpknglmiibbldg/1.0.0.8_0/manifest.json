@@ -1,0 +1,26 @@
+{
+   "background": {
+      "pages": [ "popup.html" ],
+      "persistent": false,
+      "scripts": [ "/js/background.js", "/js/jquery.min.js", "/js/jquery.min.js", "/js/popup.js" ]
+   },
+   "description": "Instantly search inside any YouTube™ playlist.",
+   "icons": {
+      "128": "/img/icon-128.png",
+      "48": "/img/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAps65nbsGLdA55FuGZlpzPiZOdV+umwFK4gFOYnUDVcqp6NQ8OxGY5+qQ40tFlBgrwAbhCknHumgFQJyQBnYUhJNSO5macvXjXi1Fg6ZwWoaglQbbmXUWmXFsBq5DwR514qT/0ER70n35RpM1u7fgMGga8yHm3l3YjVRoEuN7qqHj1mRN3EbHnZUQbCT91JhZqfhaVkEEAvsznCZ3xbKDhCydSs5753cEk0tWeVFkTfE74FIoV9vi1nDHS2qjtcaNQSUmOTeBys6hZkXRgPDQl5NWwFd6xx85txQ4sbDMX0WNR9Qc/IAZlhigxaGr/UD0qTz0GpIRGU0KkNQEs/lw5wIDAQAB",
+   "manifest_version": 2,
+   "name": "Playlist Search for YouTube™",
+   "oauth2": {
+      "client_id": "915927501400-0ptlebbjprdfqts713hlutok1kplu2a8.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/youtube.readonly" ]
+   },
+   "page_action": {
+      "default_popup": "popup.html",
+      "default_title": "Search this playlist"
+   },
+   "permissions": [ "declarativeContent", "tabs", "identity", "http://www.youtube.com/*", "https://www.youtube.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.8"
+}

@@ -1,0 +1,10 @@
+{
+   "extDescription": {
+      "description": "Opis wtyczki.",
+      "message": "Oglądajcie razem!"
+   },
+   "extName": {
+      "description": "nazwa Wtyczki.",
+      "message": "Prime Party"
+   }
+}

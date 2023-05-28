@@ -1,0 +1,22 @@
+{
+   "api_console_project_id": "949815188868",
+   "app": {
+      "launch": {
+         "container": "tab",
+         "web_url": "https://imclient.herokuapp.com/pdfeditor/"
+      },
+      "urls": [ "https://imclient.herokuapp.com/pdfeditor/" ]
+   },
+   "container": "GOOGLE_DRIVE",
+   "default_locale": "en_US",
+   "description": "__MSG_ext_description__",
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgwUg38IlgIdwI9HbPYQuWlX3p/XLmhdh+Fyzn/qgEeBXCbhTC4x8NcZYjFryoFGicGl3DWxkaH1Owcfm02VcZ0M+1hzNNKhE/yHaKR/CH49Lp0B9AG5LgEyo20Aqrgm6B+owIwS8GaOUm/j4zo+PeYoDjehSzHcF/tPtoaEzAJ17IovLkUeXfkPnlIlHtYrUDDGdWVEsEP+BEVDS/qSohU52x73Y3SeBotJK05hUlTDDqNJwVP/0v/G/MNRTTHJGGZz9PGh1/XcEMghRI2gMt/bHYWAXZrwLhQ/pWbSbFgU61LUnb9fD8DSI4NURJME18zH18ya3DuUVqNMHSN/pewIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_ext_name__",
+   "permissions": [ "unlimitedStorage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.3.3"
+}
