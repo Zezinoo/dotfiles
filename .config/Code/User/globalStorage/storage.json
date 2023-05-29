@@ -3,7 +3,10 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/jalves/eracing/ekf-slam": "__default__profile__",
-            "file:///home/jalves/Documents/Code/eracing": "__default__profile__"
+            "file:///home/jalves/Documents/Code/eracing": "__default__profile__",
+            "file:///home/jalves/Documents/Code/alura/csharp": "__default__profile__",
+            "file:///home/jalves/Documents/Code/alura/csharp/1curso": "__default__profile__",
+            "file:///home/jalves/Documents/Code/alura/csharp/jogo": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -13,7 +16,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/jalves/Documents/Code/eracing"
+                "folderUri": "file:///home/jalves/Documents/Code/alura/csharp/jogo"
             }
         ],
         "emptyWindows": []
@@ -61,6 +64,39 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jalves/Documents/Code/alura/csharp/jogo",
+                                        "path": "/home/jalves/Documents/Code/alura/csharp/jogo",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Code/alura/csharp/jogo"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jalves/Documents/Code/alura/csharp/1curso",
+                                        "path": "/home/jalves/Documents/Code/alura/csharp/1curso",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Code/alura/csharp/1curso"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jalves/Documents/Code/alura/csharp",
+                                        "path": "/home/jalves/Documents/Code/alura/csharp",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Code/alura/csharp"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -680,10 +716,6 @@
                         "label": "E&&xtensions"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -728,8 +760,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1045,7 +1076,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1440,10 +1472,6 @@
                 "label": "Alt+Z",
                 "userSettingsLabel": "alt+z"
             },
-            "workbench.action.navigateBack": {
-                "label": "Ctrl+Alt+-",
-                "userSettingsLabel": "ctrl+alt+-"
-            },
             "workbench.action.navigateForward": {
                 "label": "Ctrl+Shift+-",
                 "userSettingsLabel": "ctrl+shift+-"
@@ -1617,7 +1645,7 @@
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
     "windowSplash": {
-        "zoomLevel": 0,
+        "zoomLevel": 1,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",
@@ -1634,7 +1662,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 256,
+            "sideBarWidth": 202,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -1642,8 +1670,8 @@
     "window.experimental.useSandbox": true,
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/jalves/Documents/Code/eracing",
-            "backupPath": "/home/jalves/.config/Code/Backups/733aa187c1d1a2a956147108e3e849f4",
+            "folder": "file:///home/jalves/Documents/Code/alura/csharp/jogo",
+            "backupPath": "/home/jalves/.config/Code/Backups/d2340352273bcf23b62ca3b21d55e4af",
             "uiState": {
                 "mode": 1,
                 "x": 2210,

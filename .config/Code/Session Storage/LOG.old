@@ -1,2 +1,3 @@
-2023/05/11-21:35:45.973 7025 Creating DB /home/jalves/.config/Code/Session Storage since it was missing.
-2023/05/11-21:35:46.009 7025 Reusing MANIFEST /home/jalves/.config/Code/Session Storage/MANIFEST-000001
+2023/05/28-22:17:23.743 6912 Reusing MANIFEST /home/jalves/.config/Code/Session Storage/MANIFEST-000001
+2023/05/28-22:17:23.743 6912 Recovering log #3
+2023/05/28-22:17:23.743 6912 Reusing old log /home/jalves/.config/Code/Session Storage/000003.log 

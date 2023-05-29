@@ -37,7 +37,7 @@ disk "/home" {
 }
 
 ethernet _first_{
-        format_up = "<span background='#88c0d0'>  🖧%ip </span>"
+        format_up = "<span background='#88c0d0'>   🖧  %speed </span>"
         format_down = "<span background='#88c0d0'>  🗙 Disconnected </span>"
 }
 

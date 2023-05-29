@@ -1,5 +1,7 @@
 {
     "[python]": {
         "editor.formatOnType": true
-    }
+    },
+    "window.zoomLevel": 1,
+    "editor.lineNumbers": "relative"
 }

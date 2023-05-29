@@ -126,3 +126,5 @@ zstyle ':completion:*' list-colors dircolors
 autoload -Uz compinit
 compinit
  xset r rate 300 50
+
+plugins=(zsh-syntax-highlighting)

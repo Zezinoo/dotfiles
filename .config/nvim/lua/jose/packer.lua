@@ -84,7 +84,7 @@ return require('packer').startup(function(use)
         config = function() require("nvim-autopairs").setup {} end
     }
     use('lervag/vimtex')
-    use('suxpert/vimcaps')
+    --    use('suxpert/vimcaps')
     use({
         'okuuva/auto-save.nvim',
         ft = { 'tex', 'txt' },
@@ -112,4 +112,5 @@ return require('packer').startup(function(use)
         ft = { "tex", "markdown" },
     }
     use('freddiehaddad/feline.nvim')
+    use('guns/xterm-color-table.vim')
 end)

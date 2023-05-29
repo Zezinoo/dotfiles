@@ -26,10 +26,14 @@ vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
 
-vim.cmd(
-    "set stl=>>>%{vimcaps#statusline(1)}>>>"
-)
+--vim.cmd(
+--    "set stl=>>>%{vimcaps#statusline(1)}>>>"
+--)
+
 --Spell check options
 --
 vim.opt.spelllang = 'pt,en_gb'
 vim.cmd("autocmd FileType latex,tex,md,markdown setlocal spell")
+
+--
+require("statusline")

@@ -32,3 +32,12 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
 
 vim.opt.showtabline = 2
+
+--vim.cmd([[
+--set cursorline
+--hi cursorline cterm=none term=none
+--autocmd WinEnter * setlocal cursorline
+--autocmd WinLeave * setlocal nocursorline
+--highlight CursorLine guibg=#875fdf ctermbg=126
+--]]
+--)
