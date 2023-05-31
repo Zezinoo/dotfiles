@@ -113,4 +113,5 @@ return require('packer').startup(function(use)
     }
     use('freddiehaddad/feline.nvim')
     use('guns/xterm-color-table.vim')
+    use('suxpert/vimcaps')
 end)

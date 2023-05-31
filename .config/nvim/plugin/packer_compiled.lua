@@ -233,6 +233,11 @@ _G.packer_plugins = {
     path = "/home/jalves/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  vimcaps = {
+    loaded = true,
+    path = "/home/jalves/.local/share/nvim/site/pack/packer/start/vimcaps",
+    url = "https://github.com/suxpert/vimcaps"
+  },
   vimtex = {
     loaded = true,
     path = "/home/jalves/.local/share/nvim/site/pack/packer/start/vimtex",

@@ -24,12 +24,12 @@ load {
 }
 
 cpu_temperature 0 {
-        format = "<span background='#bf616a'>  🌡%degrees °C </span>"
+        format = "<span background='#bf616a'> 🌡️%degrees °C </span>"
         path = "/sys/class/thermal/thermal_zone0/temp"
 }
 
 disk "/" {
-        format = "<span background='#fec7cd'>  🖴%free Free </span>"
+        format = "<span background='#fec7cd'> 💾%free Free </span>"
 }
 
 disk "/home" {
@@ -37,13 +37,13 @@ disk "/home" {
 }
 
 ethernet _first_{
-        format_up = "<span background='#88c0d0'>   🖧  %speed </span>"
-        format_down = "<span background='#88c0d0'>  🗙 Disconnected </span>"
+        format_up = "<span background='#88c0d0'> 🌐  %speed </span>"
+        format_down = "<span background='#88c0d0'> ❌ Disconnected </span>"
 }
 
 wireless _first_{
         format_up = "<span background='#b48ead'>  📶 %essid </span>"
-        format_down = "<span background='#b48ead'>  🗙 Disconnected </span>"
+        format_down = "<span background='#b48ead'> ❌Disconnected </span>"
 }
 
 volume master {

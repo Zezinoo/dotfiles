@@ -1,5 +1,0 @@
-2023/05/27-21:40:14.966 12999 Creating DB /home/jalves/.config/discord/Local Storage/leveldb since it was missing.
-2023/05/27-21:40:14.991 12999 Reusing MANIFEST /home/jalves/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2023/05/27-21:42:28.436 12c42 Level-0 table #5: started
-2023/05/27-21:42:28.455 12c42 Level-0 table #5: 1639067 bytes OK
-2023/05/27-21:42:28.463 12c42 Delete type=0 #3

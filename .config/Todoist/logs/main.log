@@ -1,8 +1,0 @@
-[2023-05-12 18:52:22.181] [info] Checking for update
-[2023-05-12 18:52:22.598] [info] Generated new staging user ID: 8430459b-d849-5f64-8a0d-d297552b5da3
-[2023-05-12 18:52:22.711] [info] Update for version 8.2.0 is not available (latest version: 8.2.0, downgrade is disallowed).
-[2023-05-12 18:54:08.430] [info] Checking for update
-[2023-05-12 18:54:09.116] [info] Update for version 8.2.0 is not available (latest version: 8.2.0, downgrade is disallowed).
-[2023-05-12 19:03:27.378] [info] Checking for update
-[2023-05-12 19:03:28.496] [info] Update for version 8.2.0 is not available (latest version: 8.2.0, downgrade is disallowed).
-[2023-05-19 17:41:16.803] [warn] APPIMAGE env is not defined, current application is not an AppImage

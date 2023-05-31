@@ -35,5 +35,6 @@ vim.g.netrw_winsize = 25
 vim.opt.spelllang = 'pt,en_gb'
 vim.cmd("autocmd FileType latex,tex,md,markdown setlocal spell")
 
+vim.cmd("set stl=>>>%{vimcaps#statusline(N)}<<<")
 --
 require("statusline")

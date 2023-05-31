@@ -1,9 +1,0 @@
-# GIMP gimp-text-tool options
-
-(foreground (color-rgb 1 0.99215686321258545 0.9843137264251709))
-(palette "Color History")
-(font "Ubuntu Italic")
-(font-size 250)
-(box-mode fixed)
-
-# end of gimp-text-tool options

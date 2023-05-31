@@ -1,8 +1,0 @@
-2023-04-27 13:00:15.069 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-04-27 13:00:15.083 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.remote-repositories' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-04-27 13:00:15.084 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-04-27 13:00:15.084 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookControllerKind' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-04-27 13:00:15.738 [info] Started initializing default profile extensions in extensions installation folder. file:///home/jalves/.vscode/extensions
-2023-04-27 13:00:16.431 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/jalves/.vscode/extensions
-2023-04-27 13:00:19.197 [info] [perf] Render performance baseline is 44ms
-2023-04-27 13:00:24.632 [warning] [perf] Renderer reported VERY LONG TASK (442ms), starting profiling session '49c1badc-a9c9-4dd9-8d9c-aeef856563c8'
