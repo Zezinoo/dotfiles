@@ -65,5 +65,19 @@ return {
         { t("\\implies") },
         { condition = in_mathzone }
     ),
+    s({ trig = "psi", snippetType = "autosnippet" },
+        { t("\\psi") },
+        { condition = in_mathzone }
+    ),
+    s({ trig = "hsl", snippetType = "autosnippet" },
+        { t("\\hslash") },
+        { condition = in_mathzone }
+    ),
+    s({ trig = "eqsch", snippetType = "autosnippet" },
+        { t("\\hslash") },
+        { condition = in_mathzone }
+    ),
+
+
 
 }

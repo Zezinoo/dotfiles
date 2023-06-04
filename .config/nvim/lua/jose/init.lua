@@ -38,3 +38,5 @@ vim.cmd("autocmd FileType latex,tex,md,markdown setlocal spell")
 vim.cmd("set stl=>>>%{vimcaps#statusline(N)}<<<")
 --
 require("statusline")
+-- Course specific snippets
+vim.cmd("set rtp+=~/university/current-course")
