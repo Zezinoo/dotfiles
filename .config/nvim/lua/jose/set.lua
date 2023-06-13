@@ -41,3 +41,13 @@ vim.opt.showtabline = 2
 --highlight CursorLine guibg=#875fdf ctermbg=126
 --]]
 --)
+
+-- Folds
+vim.cmd([[
+set foldmethod=indent
+nnoremap <space> za
+vnoremap <space> zf
+]])
+
+
+-- Exec Python
