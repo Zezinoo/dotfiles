@@ -100,6 +100,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"	
+alias cl="clear"
+alias sl="swallow"
+alias lo="git log --oneline --graph --all"
+alias so="source ~/.zshrc"
 #setting long path variables
 #setopt  cdable_vars
 #export Unicamp=$HOME/Documents/Unicamp
@@ -127,3 +131,10 @@ autoload -Uz compinit
 compinit
  xset r rate 300 50
 
+source /opt/ros/iron/setup.zsh
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh
+
+#source /home/jalves/Documents/Code/ros2_ws/install/setup.zsh
+#source /home/jalves/Documents/Code/eracing/ros_dump/ros/workspace/install/setup.zsh
+
+complete -o nospace -o default -F _python_argcomplete "ros2"

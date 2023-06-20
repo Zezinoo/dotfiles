@@ -1,7 +1,7 @@
 
 general {
         output_format = "i3bar"
-        colors = false
+        colors = true
         markup = pango
         interval = 5
         color_good = '#2f343f'
@@ -20,35 +20,35 @@ order += "battery 1"
 order += "tztime local"
 
 load {
-        format = "<span background='#f59335'>  ∰%5min Load </span>"
+        format = "<span color = '#300366' background='#f59335'>  ∰%5min Load </span>"
 }
 
 cpu_temperature 0 {
-        format = "<span background='#bf616a'> 🌡️%degrees °C </span>"
+        format = "<span color = '#300366' background='#bf616a'> 🌡️%degrees °C </span>"
         path = "/sys/class/thermal/thermal_zone0/temp"
 }
 
 disk "/" {
-        format = "<span background='#fec7cd'> 💾%free Free </span>"
+        format = "<span color = '#300366' background='#fec7cd'> 💾%free Free </span>"
 }
 
 disk "/home" {
-        format = "<span background='#a1d569'>  🏠%free Free </span>"
+        format = "<span color = '#300366' background='#a1d569'>  🏠%free Free </span>"
 }
 
 ethernet _first_{
-        format_up = "<span background='#88c0d0'> 🌐  %speed </span>"
-        format_down = "<span background='#88c0d0'> ❌ Disconnected </span>"
+        format_up = "<span color = '#300366' background='#88c0d0'> 🌐  %speed </span>"
+        format_down = "<span color = '#300366' background='#88c0d0'> ❌ Disconnected </span>"
 }
 
 wireless _first_{
-        format_up = "<span background='#b48ead'>  📶 %essid </span>"
-        format_down = "<span background='#b48ead'> ❌Disconnected </span>"
+        format_up = "<span color = '#300366' background='#b48ead'>  📶 %essid </span>"
+        format_down = "<span color = '#300366' background='#b48ead'> ❌Disconnected </span>"
 }
 
 volume master {
-        format = "<span background='#ebcb8b'>  🔉%volume </span>"
-        format_muted = "<span background='#ebcb8b'>  🔇Muted </span>"
+        format = "<span color = '#300366' background='#ebcb8b'>  🔉%volume </span>"
+        format_muted = "<span color = '#300366' background='#ebcb8b'>  🔇Muted </span>"
         device = "default"
         mixer = "Master"
         mixer_idx = 0
@@ -56,12 +56,12 @@ volume master {
 
 battery 1 {
 	last_full_capacity = true
-        format = "<span background='#a3be8c'>  🔋%status %percentage </span>"
+            format = "<span color = '#300366' background='#a3be8c'>%status %percentage </span>"
         format_down = "No Battery"
-        status_chr = "Charging"
+        status_chr = "⚡Charging"
         status_bat = "Battery"
         status_unk = "Unknown"
-        status_full = "Charged"
+        status_full = "🔋Charged"
         path = "/sys/class/power_supply/BAT%d/uevent"
         low_threshold = 20
 }

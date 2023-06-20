@@ -73,11 +73,5 @@ return {
         { t("\\hslash") },
         { condition = in_mathzone }
     ),
-    s({ trig = "eqsch", snippetType = "autosnippet" },
-        { t("\\hslash") },
-        { condition = in_mathzone }
-    ),
-
-
 
 }
