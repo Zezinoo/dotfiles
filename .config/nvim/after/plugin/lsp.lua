@@ -51,9 +51,14 @@ lsp.on_attach(function(client, bufnr)
     vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
 end)
 
-
 vim.diagnostic.config({
-    virtual_text = true
+    virtual_text = {
+        prefix = '●',
+    },
+    severity_sort = true,
+    float = {
+        source = "always", -- Or "if_many"
+    },
 })
 --Autoformatting
 
@@ -70,13 +75,13 @@ lsp.format_on_save({
         ['lua_ls'] = { 'lua' },
         ['rust_analyzer'] = { 'rust' },
         ['pylsp'] = { 'python' },
+        ['csharp_ls'] = { 'cs' },
         -- if you have a working setup with null-ls
         -- you can specify filetypes it can format.
         -- ['null-ls'] = {'javascript', 'typescript'},
     }
 })
 
-require 'lspconfig'.pylsp.setup {}
 require 'lspconfig'.csharp_ls.setup {}
-
+require 'lspconfig'.pylsp.setup {}
 lsp.setup()

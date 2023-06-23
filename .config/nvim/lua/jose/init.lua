@@ -1,5 +1,6 @@
 require("jose.remap")
 require("jose.set")
+require("jose.diagnostics")
 
 
 local augroup = vim.api.nvim_create_augroup

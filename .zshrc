@@ -134,7 +134,7 @@ compinit
 source /opt/ros/iron/setup.zsh
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh
 
-#source /home/jalves/Documents/Code/ros2_ws/install/setup.zsh
+source /home/jalves/Documents/Code/ros2_ws/install/setup.zsh
 #source /home/jalves/Documents/Code/eracing/ros_dump/ros/workspace/install/setup.zsh
 
 complete -o nospace -o default -F _python_argcomplete "ros2"

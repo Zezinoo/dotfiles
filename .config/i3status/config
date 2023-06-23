@@ -59,7 +59,7 @@ battery 1 {
             format = "<span color = '#300366' background='#a3be8c'>%status %percentage </span>"
         format_down = "No Battery"
         status_chr = "⚡Charging"
-        status_bat = "Battery"
+        status_bat = ""
         status_unk = "Unknown"
         status_full = "🔋Charged"
         path = "/sys/class/power_supply/BAT%d/uevent"
