@@ -41,3 +41,11 @@ vim.cmd("set stl=>>>%{vimcaps#statusline(N)}<<<")
 require("statusline")
 -- Course specific snippets
 vim.cmd("set rtp+=~/university/current-course")
+--Ultisnips
+vim.cmd([[
+let g:UltiSnipsSnippetDirectories=['/home/jalves/.config/nvim/UltiSnips/','Ultisnips',$HOME.'/.config/nvim/UltiSnips']"
+let g:UltiSnipsSnippetsDir=['/home/jalves/.config/nvim/UltiSnips/','Ultisnips']"
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+]])
