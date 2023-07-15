@@ -39,15 +39,17 @@ autoload -Uz compinit
 compinit
  xset r rate 300 50
 
-source /opt/ros/iron/setup.zsh
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh
+source /opt/ros/iron/setup.zsh
 
-source /home/jalves/Documents/Code/ros2_ws/install/setup.zsh
+#source /home/jalves/Documents/Code/ros2_ws/install/setup.zsh
 #source /home/jalves/Documents/Code/eracing/ros_dump/ros/workspace/install/setup.zsh
 
-complete -o nospace -o default -F _python_argcomplete "ros2"
+#complete -o nospace -o default -F _python_argcomplete "ros2"
 
 export PATH=/usr/local/texlive/2023/bin/x86_64-linux:$PATH
 # vim bindings
 bindkey -v
 xrandr --output DP-1 --right-of eDP-1
+export PATH="$PATH:/usr/local/bin"
+source /opt/ros/iron/setup.zsh
